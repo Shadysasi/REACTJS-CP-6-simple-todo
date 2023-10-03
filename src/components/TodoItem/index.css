@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.todo-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  list-style-type: none;
+  padding: 5px;
+}
+.todo-title {
+  color: #000000;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.delete-button {
+  color: #ff0b37;
+  font-size: 12px;
+  border: 1px solid #ff0b37;
+  background-color: transparent;
+  border-radius: 5px;
+  width: 100px;
+  padding: 5px;
+}
